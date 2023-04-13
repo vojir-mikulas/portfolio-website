@@ -9,15 +9,15 @@ const Header = () => {
                 <Logo size={"30px"}/>
 
                 <div className={"inline-flex gap-6"}>
-                    <nav className={"inline-flex gap-2"}>
-                        <Link href={"/"}>Home</Link>
-                        <Link href={"/projects"}>Projects</Link>
-                        <Link href={"/about"}>About me</Link>
+                    <nav  className={"inline-flex gap-2" }>
+                        <Link className={"interactable"} href={"/"}>Home</Link>
+                        <Link className={"interactable"} href={"/projects"}>Projects</Link>
+                        <Link className={"interactable"} href={"/about"}>About me</Link>
                     </nav>
                     <span>|</span>
                     <div className={"inline-flex gap-2"}>
-                        <button>CZ</button>
-                        <button>DARK</button>
+                        <button className={"interactable"}>CZ</button>
+                        <button className={"interactable"}>DARK</button>
                     </div>
                 </div>
             </div>
