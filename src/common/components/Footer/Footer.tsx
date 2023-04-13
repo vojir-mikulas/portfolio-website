@@ -26,7 +26,7 @@ const Footer = () => {
                    </div>
                    <div className={"h-34 flex flex-col justify-between"}>
                        <Logo size={"40px"}/>
-                       <div>
+                       <div className={"inline-flex gap-6"}>
                            <span>Copyright © 2022 Vojíř</span>
                            <span>Design © Vojíř</span>
                        </div>
