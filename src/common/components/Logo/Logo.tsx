@@ -8,7 +8,7 @@ const Logo : React.FC<LogoInterface> = ({size}) => {
     const router = useRouter()
     const HandleClick = () => router.push("/");
     return (
-        <a onClick={HandleClick} className={"cursor-pointer"}>
+        <a onClick={HandleClick} className={"cursor-pointer interactable"}>
             <h1 className="font-bold " style={{fontSize: size}}>
                 V
             </h1>
